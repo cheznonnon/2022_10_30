@@ -12,6 +12,69 @@
 Change Log
 
 
+2022/10/30 #2 : 2022/11/06
+
+
+BUGFIX
+
+
+	CatPad for Mac
+		Save : UTF-16
+			OLD : broken
+			NEW : use UTF-8 without BOM instead for now
+		Full-Width Space
+			OLD : not supported
+			NEW : fixed
+		Date and Day-of-Week
+			OLD : written in readme but not working
+			NEW : fixed
+		macOS 12 Monterey : window position and size
+			OLD : not restored
+			NEW : fixed
+			[x] : behavior is changed in Monterey
+	Nonnon Freecell for Mac
+		Auto-complete : on the modern machines
+			OLD : too fast
+			NEW : fixed
+	Nonnon Paint for Mac
+		Canvas : cursor : change
+			OLD : need to move a mouse
+			NEW : fixed
+
+
+NEW_FEATURE
+
+
+	mac/n_txtbox.c
+		ONELINE
+			NEW : FINDBOX available
+			[!] : separated
+
+	project/utf-8.c
+		utf-8.exe
+			NEW : text converter with UTF-8 with BOM
+			[!] : folder available
+
+	CatPad for Mac
+		Search Field
+			NEW : richer than older
+			[!] : delete button is added
+		Tab Indenter : modifier key
+			OLD : Shift
+			NEW : Option (Alt)
+			[!] : for usability
+	Nonnon Paint for Mac
+		shift key
+			NEW : handle as menu-click
+			[!] : for Magic Mouse
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2022/10/30 #1 : 2022/10/31
 
 

@@ -21,7 +21,7 @@ BUGFIX
 	CatPad for Mac
 		Save : UTF-16
 			OLD : broken
-			NEW : use UTF-8 without BOM instead for now
+			NEW : fixed
 		Full-Width Space
 			OLD : not supported
 			NEW : fixed

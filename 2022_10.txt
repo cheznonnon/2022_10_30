@@ -40,6 +40,9 @@ BUGFIX
 		Canvas : cursor : change
 			OLD : need to move a mouse
 			NEW : fixed
+		Formatter : menu-click to change format
+			OLD : crash
+			NEW : fixed
 
 
 NEW_FEATURE

@@ -12,6 +12,98 @@
 Change Log
 
 
+2022/10/30 #3 : 2022/11/11
+
+
+BUGFIX
+
+
+	neutral/filer.c
+		Mac : utime()
+			OLD : not supported
+			NEW : supported
+
+	mac/n_txtbox.c
+		Cut and Paste : newline handling
+			OLD : inaccurate
+			NEW : fixed
+		Caret : tab half pitch
+			OLD : inaccurate
+			NEW : fixed
+
+	CatPad for Mac
+		Search History : when non-ASCII string like CJK characters
+			OLD : become invalid
+			NEW : fixed
+		Paste : one character
+			OLD : error dialog appears and data are lost
+			NEW : fixed
+	Nonnon Freecell for Mac
+		Main Icon
+			OLD : too large
+			NEW : arranged
+			[!] : to reset icon cache, safe boot is needed
+	Nonnon Paint for Mac
+		Input : when Zoom has big value
+			OLD : not adjusted
+			NEW : fixed
+		Zoom : when high value
+			OLD : right and bottom margins are overwritten
+			NEW : fixed
+		Zoom : shaft is clicked : about zero
+			OLD : 1/2
+			NEW : 1
+		Resizer : after resized
+			OLD : title bar size is not refreshed
+			NEW : fixed
+		Main Icon
+			OLD : too large
+			NEW : arranged
+			[!] : to reset icon cache, safe boot is needed
+		Load : loaded layer then grabber load
+			OLD : broken
+			NEW : fixed
+			[!] : DnD context also implemented
+			[!] : you cannot drop while disabled state
+		Grabber : when Zoom has large value : frame position
+			OLD : inaccurate
+			NEW : fixed
+		Grabber : when dropped : Animation Frame
+			OLD : off
+			NEW : on
+	Project Checker for Mac
+		internal file I/O
+			OLD : timestamp is not written
+			NEW : fixed
+
+
+NEW_FEATURE
+
+
+	mac/n_button.c
+		disabled state
+			NEW : blend available
+
+	CatPad for Mac
+		Text2HTML
+			NEW : escapement converter
+			[!] : &amp;nbsp; &amp;lt; &amp;gt; converter
+	Nonnon Paint for Mac
+		Canvas
+			NEW : a little faster than older
+	Project Checker for Mac
+		dot files
+			NEW : excluded
+		throbber
+			NEW : implemented
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2022/10/30 #2 : 2022/11/06
 
 

@@ -12,6 +12,49 @@
 Change Log
 
 
+2022/10/30 #4 : 2022/11/12
+
+
+BUGFIX
+
+
+	mac/n_txtbox.c
+		Caret : half pitch
+			OLD : once fixed but not fixed yet
+			NEW : fixed
+		Copy
+			OLD : not working in some cases
+			NEW : fixed
+
+	Nonnon Paint for Mac
+		Grabber : when Zoom has large value : frame position
+			OLD : inaccurate
+			NEW : fixed
+		Grabber : when dropped : Animation Frame
+			OLD : off
+			NEW : on
+
+
+NEW_FEATURE
+
+
+	CatPad for Mac
+		Finder/Dock DnD
+			NEW : supported
+	Marie for Mac
+		Finder/Dock DnD
+			NEW : supported
+	Nonnon Paint for Mac
+		Finder/Dock DnD
+			NEW : supported
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2022/10/30 #3 : 2022/11/11
 
 

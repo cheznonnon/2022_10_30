@@ -12,6 +12,40 @@
 Change Log
 
 
+2022/10/30 #5 : 2022/11/13
+
+
+BUGFIX
+
+
+	mac/n_txtbox.c
+		LISTBOX : when focus is out of canvas
+			OLD : do nothing
+			NEW : fixed
+
+	Nonnon Paint for Mac
+		Multi-Layer : Menu : Up/Down
+			OLD : list is not redrawn
+			NEW : fixed
+		macOS Monterey : Tool Window and Layer Window
+			OLD : forget position
+			NEW : fixed
+
+
+NEW_FEATURE
+
+
+	Nonnon Paint for Mac
+		Multi-Layer : Listbox
+			OLD : you can swap when press shift key + arrow
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2022/10/30 #4 : 2022/11/12
 
 

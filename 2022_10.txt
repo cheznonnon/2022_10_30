@@ -12,6 +12,37 @@
 Change Log
 
 
+2022/10/30 #6 : 2022/11/14
+
+
+BUGFIX
+
+
+	hunyapiyo3 for Mac
+		Result : sound interval
+			OLD : too much longer than sound length msec
+			NEW : fixed
+	Nonnon Paint for Mac
+		Canvas : Scrollbars
+			OLD : not captured
+			NEW : fixed
+			[x] : XMouse conflicts
+
+
+NEW_FEATURE
+
+
+	Nonnon Paint for Mac
+		Zoom : shaft click
+			NEW : smarter than older
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2022/10/30 #5 : 2022/11/13
 
 

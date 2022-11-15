@@ -12,6 +12,28 @@
 Change Log
 
 
+2022/10/30 #7 : 2022/11/15
+
+
+BUGFIX
+
+
+	mac/n_txtbox.c
+		Caret : selected then move a caret : from where
+			OLD : from / source
+			NEW : to   / destination
+		Caret : out-of-screen
+			OLD : centered
+			NEW : fixed
+			[!] : conflict with search ui
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2022/10/30 #6 : 2022/11/14
 
 

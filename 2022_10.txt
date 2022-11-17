@@ -12,6 +12,32 @@
 Change Log
 
 
+2022/10/30 #9 : 2022/11/17
+
+
+BUGFIX
+
+
+	mac/n_txtbox.c
+		Copy : newline
+			OLD : once patched but not completed
+			NEW : fixed again
+
+	Nonnon Paint for Mac
+		cursor
+			OLD : not accurate
+			NEW : fixed
+		XMouse
+			OLD : partially
+			NEW : all windows
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2022/10/30 #8 : 2022/11/16
 
 

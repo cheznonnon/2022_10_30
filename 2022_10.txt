@@ -12,6 +12,37 @@
 Change Log
 
 
+2022/10/30 #11 : 2022/11/19
+
+
+BUGFIX
+
+
+	mac/n_button.c
+		press 'n' run
+			OLD : misbehave
+			NEW : fixed
+
+	Marie for Mac
+		Load : when associated
+			OLD : not smooth
+			NEW : fixed
+	Nonnon Paint for Mac
+		Cursor : when pen : out-of-window
+			OLD : arrow is restored
+			NEW : fixed
+		Pen : out-of-window
+			OLD : not captured
+			NEW : fixed
+			[x] : XMouse conflicts
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2022/10/30 #10 : 2022/11/18
 
 

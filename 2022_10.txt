@@ -12,6 +12,24 @@
 Change Log
 
 
+2022/10/30 #12 : 2022/11/20
+
+
+BUGFIX
+
+
+	mac/n_button.c
+		press 'n' run
+			OLD : misbehave
+			NEW : fixed again
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2022/10/30 #11 : 2022/11/19
 
 

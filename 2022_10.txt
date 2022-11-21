@@ -12,6 +12,25 @@
 Change Log
 
 
+2022/10/30 #13 : 2022/11/21
+
+
+BUGFIX
+
+
+	Nonnon Paint for Mac
+		Tool Window Buttons and Layer Listbox
+			OLD : be input twice
+			NEW : fixed
+			[x] : delegate hell
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2022/10/30 #12 : 2022/11/20
 
 

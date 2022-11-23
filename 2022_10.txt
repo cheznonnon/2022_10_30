@@ -12,6 +12,39 @@
 Change Log
 
 
+2022/10/30 #15 : 2022/11/23
+
+
+BUGFIX
+
+
+	Nonnon Paint for Mac
+		Multi-Layer : Layer Window : Name
+			OLD : not saved
+			NEW : fixed
+			[!] : delegate hell causes
+			[x] : recent change causes
+		Multi-Layer : Layer Window : Shift + Arrow
+			OLD : written in readme but not working
+			NEW:  fixed
+
+
+NEW_FEATURE
+
+
+	mac/n_txtbox.c
+		Delegate : usage
+			NEW : changed
+			[!] : set "self" to "delegate" and set "delegate_option"
+			[!] : default is "do nothing"
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2022/10/30 #14 : 2022/11/22
 
 
